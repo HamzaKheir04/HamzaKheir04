@@ -61,9 +61,8 @@ I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) wit
  
 **Led the machine learning development within a multidisciplinary team**, owning model design, evaluation, and deployment while collaborating on backend integration.
  
-```
 <img src="https://github.com/HamzaKheir04/donation-rec-api/raw/master/architecture.png" width="500"/>
-```
+
  
 - Built a **Hybrid Recommendation System** (Collaborative Filtering with TruncatedSVD + Content-Based) on a sampled subset of the 100M+ Alibaba/Taobao UserBehavior dataset, achieving a **5.6× improvement in F1@5** over a popularity-based baseline (0.2015 vs. 0.0357)
 - Designed a **sampling pipeline** that reduced data sparsity while preserving representative user-item interactions for model training at scale
