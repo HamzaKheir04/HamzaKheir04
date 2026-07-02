@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Hamza Alhabashnah 👋</h1>
  
 <p align="center">
-  <b>Machine Learning Engineer focused on building production-ready recommendation systems and scalable ML pipelines.</b>
+  <b>ML Engineer | Data Scientist | Fresh Graduate.</b>
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/hamza-kheir"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
