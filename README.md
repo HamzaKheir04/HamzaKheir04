@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Hamza Alhabashnah 👋</h1>
  
 <p align="center">
-  <b>Data Science & AI Graduate &nbsp;|&nbsp; Machine Learning Engineer &nbsp;|&nbsp; Alkarak, Jordan</b>
+  <b>Machine Learning Engineer focused on building production-ready recommendation systems and scalable ML pipelines.</b>
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/hamza-kheir"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -14,10 +14,17 @@
  
 I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) with hands-on experience building and deploying end-to-end machine learning systems.
  
-- 🔭 Built a **Hybrid Recommendation System** on 100M+ interactions, achieving a **5.6× improvement in F1@5** over a popularity baseline
+- 🔭 **Led ML development** on a Hybrid Recommendation System using a sampled subset of the 100M+ Alibaba UserBehavior dataset, achieving a **5.6× improvement in F1@5** over a popularity baseline
 - 🚀 Deployed ML models to production using **Flask REST APIs**, Firebase, and Render
 - 📊 Experienced with large-scale data pipelines — cleaned and analyzed **1.48M+ real-world records**
 - 🌍 Based in Jordan &nbsp;|&nbsp; Willing to Relocate
+---
+ 
+## 🎯 Featured Skills
+ 
+`Machine Learning` `Recommendation Systems` `Feature Engineering` `Data Pipelines`
+`Large-scale Data Processing` `Deployment` `Hyperparameter Tuning`
+ 
 ---
  
 ## 🛠️ Tech Stack
@@ -50,22 +57,54 @@ I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) wit
 ## 🚀 Featured Projects
  
 ### 🤝 [Donation Platform — AI Recommendation & Assistant System](https://github.com/HamzaKheir04/donation-rec-api)
-> Hybrid recommendation engine deployed as a production REST API
+> Hybrid recommendation engine deployed as a production REST API — Team Project
  
-- Built a **Hybrid Recommendation System** (Collaborative Filtering with TruncatedSVD + Content-Based) on the 100M+ Alibaba/Taobao UserBehavior dataset
-- Achieved **5.6× improvement in F1@5** over a popularity-based baseline (0.2015 vs. 0.0357)
+**Led the machine learning development within a multidisciplinary team**, owning model design, evaluation, and deployment while collaborating on backend integration.
+ 
+```
+Alibaba/Taobao Dataset (100M+ interactions)
+              ↓
+     Smart Sampling Pipeline
+              ↓
+   Hybrid Recommender Engine
+   ┌──────────────────────────────────────┐
+   │  Collaborative (TruncatedSVD)        │
+   │  +  Content-Based Filtering          │
+   └──────────────────────────────────────┘
+              ↓
+        Flask REST API
+              ↓
+     Firebase Integration
+              ↓
+    Client (Real-time Recommendations)
+```
+ 
+- Built a **Hybrid Recommendation System** (Collaborative Filtering with TruncatedSVD + Content-Based) on a sampled subset of the 100M+ Alibaba/Taobao UserBehavior dataset, achieving a **5.6× improvement in F1@5** over a popularity-based baseline (0.2015 vs. 0.0357)
+- Designed a **sampling pipeline** that reduced data sparsity while preserving representative user-item interactions for model training at scale
+- Evaluated using **time-based validation** and baseline comparison to assess recommendation relevance and personalization quality
 - Deployed as a **Flask REST API** on Render with Firebase integration for real-time cold-start recommendations
-- Developed a **bilingual AI Donation Assistant** using DeepSeek API with intent-based routing
+- Developed a **bilingual AI Donation Assistant** using DeepSeek API with intent-based category routing and recommendation-aware responses
 `Python` `TruncatedSVD` `Flask` `Firebase` `DeepSeek API` `Render`
+ 
+---
+ 
+### 🔬 [Skin Lesion Classification — Handcrafted Features + Classical ML](https://github.com/HamzaKheir04/skin-lesion-classifier)
+> End-to-end pattern recognition pipeline for skin cancer detection
+ 
+- Classified **3,297 dermoscopic images** (benign vs. malignant) using 44 handcrafted features per image (HSV histograms, LBP texture, GLCM, statistical moments)
+- Benchmarked **6 classical classifiers** (Random Forest, SVM, AdaBoost, LDA, Logistic Regression, KNN)
+- Achieved best **AUC of 0.943** with Optuna-tuned Random Forest using handcrafted image descriptors and classical ML methods
+- Applied rigorous ML practices: no data leakage, stratified 5-fold CV, class imbalance handling
+`Python` `Scikit-Learn` `OpenCV` `Scikit-Image` `Optuna` `GLCM` `LBP`
  
 ---
  
 ### 🌦️ [Sub-Seasonal Weather Forecasting](https://github.com/HamzaKheir04/WiDS-Datathon-2023)
 > End-to-end ML regression pipeline on NOAA climate data
  
-- Forecasted sub-seasonal temperatures (15–45+ days ahead) using real NOAA climate data
-- Benchmarked **XGBoost, CatBoost, and LightGBM** with Optuna hyperparameter optimization
-- Achieved best test **RMSE of 0.284** with proper train/validation/test separation to prevent data leakage
+- Engineered weather and climate features from NOAA observations before benchmarking gradient boosting models
+- Forecasted sub-seasonal temperatures (15–45+ days ahead) with rigorous train/validation/test separation to prevent data leakage
+- Benchmarked **XGBoost, CatBoost, and LightGBM** with Optuna hyperparameter optimization, achieving best test **RMSE of 0.284**
 `Python` `XGBoost` `CatBoost` `LightGBM` `Optuna` `Scikit-Learn`
  
 ---
@@ -73,21 +112,25 @@ I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) wit
 ### 🚗 [NYC Motor Vehicle Collisions Analysis](https://github.com/HamzaKheir04/NYC-Collisions-Analysis)
 > Large-scale EDA and data cleaning on 2.2M+ real-world records
  
-- Cleaned and analyzed **1.48M+ records** (from 2.2M raw) from NYC Open Data
-- Identified **Driver Inattention/Distraction** as the leading crash factor (280K+ incidents)
-- Found that **23.5% of all crashes resulted in injuries** through statistical analysis
+- Built **reusable preprocessing pipelines** for large-scale structured data cleaning and validation
+- Cleaned and analyzed **1.48M+ records** (from 2.2M raw) from NYC Open Data, handling missing values, correcting data types, and standardizing inconsistent fields
+- Identified **Driver Inattention/Distraction** as the leading crash factor (280K+ incidents) and found **23.5% of crashes resulted in injuries**
 - Exported validated datasets in JSON and Parquet formats
 `Python` `Pandas` `NumPy` `Statistical Analysis` `EDA`
  
 ---
  
-## 📈 GitHub Stats
+## 🌱 Currently Learning
  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HamzaKheir04&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HamzaKheir04&layout=compact&hide_border=true&theme=default" height="150"/>
-</p>
+| Tool | Why |
+|------|-----|
+| 🐳 Docker | Containerizing ML models for portable deployment |
+| ☁️ AWS | Cloud infrastructure for scalable ML pipelines |
+| ⚙️ MLflow | Experiment tracking and model lifecycle management |
+| 🚀 CI/CD | Automating testing and deployment workflows |
+ 
+> *As I learn each tool, it moves from here to the Tech Stack above.*
+ 
 ---
  
 ## 🎓 Education & Certifications
@@ -98,6 +141,6 @@ I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) wit
 ---
  
 <p align="center">
-  <i>Open to Junior Data Scientist & ML Engineer roles | Willing to Relocate</i>
+  📌 Open to &nbsp;<b>Junior ML Engineer</b>&nbsp;·&nbsp;<b>Junior Data Scientist</b>&nbsp;·&nbsp;<b>AI Engineer</b>&nbsp; roles &nbsp;|&nbsp; Willing to Relocate
 </p>
  
