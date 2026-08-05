@@ -14,7 +14,7 @@
  
 I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) with hands-on experience building and deploying end-to-end machine learning systems.
  
-- 🔭 **Led ML development** on a Hybrid Recommendation System using a sampled subset of the 100M+ Alibaba UserBehavior dataset, achieving a **5.6× improvement in F1@5** over a popularity baseline
+- 🔭 **Led ML development** on a Hybrid Recommendation System using a sampled subset of the 100M+ Alibaba UserBehavior dataset, achieving a **2.1× improvement in F1@5** over a popularity baseline
 - 🚀 Deployed ML models to production using **Flask REST APIs**, Firebase, and Render
 - 📊 Experienced with large-scale data pipelines — cleaned and analyzed **1.48M+ real-world records**
 - 🌍 Based in Jordan &nbsp;|&nbsp; Willing to Relocate
@@ -66,7 +66,7 @@ I'm a Data Science & AI graduate from Mu'tah University (GPA: 3.6/4.0, 2026) wit
 <img src="https://github.com/HamzaKheir04/donation-rec-api/raw/master/architecture.png" width="500"/>
 
  
-- Built a **Hybrid Recommendation System** (Collaborative Filtering with TruncatedSVD + Content-Based) on a sampled subset of the 100M+ Alibaba/Taobao UserBehavior dataset, achieving a **5.6× improvement in F1@5** over a popularity-based baseline (0.2015 vs. 0.0357)
+- Built a **Hybrid Recommendation System** (Collaborative Filtering with TruncatedSVD + Content-Based) on a sampled subset of the 100M+ Alibaba/Taobao UserBehavior dataset, achieving a **2.1× improvement in F1@5** over a popularity-based baseline (0.0748 vs 0.0354) 
 - Designed a **sampling pipeline** that reduced data sparsity while preserving representative user-item interactions for model training at scale
 - Evaluated using **time-based validation** and baseline comparison to assess recommendation relevance and personalization quality
 - Deployed as a **Flask REST API** on Render with Firebase integration for real-time cold-start recommendations
